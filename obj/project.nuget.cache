@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cxGszoDW8XOE8nFMFDrHhzaVlWN076/ePOuVdmtBpehf1KsIRYPwA9HZg4+XYE1N7/2ZbvM7CwBFG0PZOPG8fQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JamesBrannan\\source\\repos\\git\\blog-convert-html-to-pdf\\ConsoleAppHtmlToPdf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JamesBrannan\\.nuget\\packages\\cete.dynamicpdf.htmlconverter.net\\1.3.0\\cete.dynamicpdf.htmlconverter.net.1.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

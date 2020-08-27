@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ceTe.DynamicPDF.HtmlConverter.NET/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard20/DynamicPDF.HTMLConverter.NETStandard20.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard20/DynamicPDF.HTMLConverter.NETStandard20.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ceTe.DynamicPDF.HtmlConverter.NET/1.3.0": {
+      "sha512": "WT70IVoeXd8uJqBcd17iDrENLLvlaCPH6xEx0rVUBn/FoOhoxZ3eIhR8CpVwwWknInhifHkOyPCyktvBpGfqUQ==",
+      "type": "package",
+      "path": "cete.dynamicpdf.htmlconverter.net/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA",
+        "build/uap10/ceTe.DynamicPDF.HTMLConverter.NET.targets",
+        "cete.dynamicpdf.htmlconverter.net.1.3.0.nupkg.sha512",
+        "cete.dynamicpdf.htmlconverter.net.nuspec",
+        "legal.txt",
+        "lib/netstandard20/DynamicPDF.HTMLConverter.NETStandard20.dll",
+        "lib/netstandard20/DynamicPDF.HTMLConverter.NETStandard20.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ceTe.DynamicPDF.HtmlConverter.NET >= 1.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\JamesBrannan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\JamesBrannan\\source\\repos\\git\\blog-convert-html-to-pdf\\ConsoleAppHtmlToPdf.csproj",
+      "projectName": "ConsoleAppHtmlToPdf",
+      "projectPath": "C:\\Users\\JamesBrannan\\source\\repos\\git\\blog-convert-html-to-pdf\\ConsoleAppHtmlToPdf.csproj",
+      "packagesPath": "C:\\Users\\JamesBrannan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JamesBrannan\\source\\repos\\git\\blog-convert-html-to-pdf\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\JamesBrannan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "ceTe.DynamicPDF.HtmlConverter.NET": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
